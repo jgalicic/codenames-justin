@@ -1,0 +1,577 @@
+body {
+  background-color: #333;
+  font-family: Courier, monospace;
+}
+
+/*************************/
+/****** Index Page *******/
+/*************************/
+
+.index_page1 {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background: radial-gradient(circle, 
+  rgb(207, 174, 28),
+  rgb(85, 0, 65)
+  );
+}
+
+.index_page2 {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background: repeating-radial-gradient(circle, 
+  rgba(207, 171, 198, 0.03) 10px, 
+  rgba(207, 171, 198, 0.03) 45px,
+  rgba(218, 187, 187, 0.15) 60px, 
+  rgba(218, 187, 187, 0.15) 70px, 
+   rgba(207, 171, 198, 0.03) 85px);
+}
+
+#index_title {
+  color: rgba(255,255,255,.8);
+  font-family: 'Lalezar', cursive;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 8em;
+  letter-spacing: 8px;
+  text-shadow: 2px 2px 35px rgba(0,0,0,.7)
+}
+
+.index_buttons {
+  display: block;
+  width: 25%;
+  min-width: 200px;
+  color: rgba(0,0,0,.9);
+  margin: 20px auto;
+  justify-content: space-between;
+  display: flex;
+}
+.index_buttons a:hover {
+  text-decoration: none;
+  color: rgb(226, 193, 46);
+}
+
+.index_buttons a {
+  text-align: center;
+  background-color: rgb(8, 8, 8);
+  display: block !important;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 1.8em;
+  font-weight: bold;
+  color: rgb(211, 164, 11);
+}
+
+#index_buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+#index_buttons a {
+  margin: 10px 0;
+}
+
+#setup_buttons a {
+  margin: 3px;
+}
+
+.left_brace {
+  position: relative;
+  left: 15px;
+  top: 2px;
+}
+
+.right_brace {
+  position: relative;
+  right: 15px;
+  top: 2px;
+}
+
+/*************************/
+/****** Setup Page *******/
+/*************************/
+
+.setup_page2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.setup_container {
+  background: rgba(0,0,0,.4);
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  border: 5px solid #111;
+  border-radius: 3px;
+}
+
+
+#setup_title {
+  color: rgba(255,255,255,.8);
+  font-family: 'Lalezar', cursive;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 7em;
+  letter-spacing: 8px;
+  text-shadow: 2px 2px 35px rgba(0,0,0,.7);
+  line-height: 80px;
+  position: relative;
+  top: 25px;
+}
+
+#h3_directions {
+  max-width: 780px;
+}
+
+#setup_subtitle {
+  font-size: 2em;
+}
+
+.instruction_container p {
+  color: rgba(255,255,255,.9);
+  font-size: 1em;
+}
+
+/*************************/
+/***** Top Nav Bar *******/
+/*************************/
+#spymaster_header {
+  position: relative;
+  top: 16px;
+  left: 4px;
+  font-size: 5vw;
+}
+#counter {
+  position: relative;
+  top: 16px;
+  left: 4px;
+}
+
+.top_bar1 {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  height: 125px;
+  background: repeating-radial-gradient(circle, 
+  rgb(207, 174, 28),
+  rgb(88, 13, 70)
+  );
+}
+
+.blue {
+  background: repeating-radial-gradient(circle, 
+  rgb(11, 11, 255),
+  rgb(7, 1, 87)
+  );
+}
+
+.red {
+  background: repeating-radial-gradient(circle, 
+  rgb(255, 51, 0),
+  rgb(59, 0, 0)
+  );
+}
+
+.top_bar2 {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  height: 125px;
+  background: repeating-radial-gradient(circle, 
+  rgba(207, 171, 198, 0.05) 10px, 
+  rgba(207, 171, 198, 0.05) 45px,
+  rgba(218, 187, 187, 0.25) 60px, 
+  rgba(218, 187, 187, 0.25) 70px, 
+   rgba(207, 171, 198, 0.05) 85px);
+   border-bottom: 6px solid #111;
+}
+
+.game_title h1  {
+  color: rgba(255,255,255,.8);
+  font-family: 'Lalezar', cursive;
+  text-align: center;
+  font-size: 5em;
+  margin-bottom: -28px;
+  padding-bottom: 0;
+  letter-spacing: 8px;
+  text-shadow: 2px 2px 10px rgba(0,0,0,.3)
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  text-shadow: 2px 2px 10px rgba(0,0,0,.3);
+  margin: 0;
+  padding: 0;
+}
+
+h2 .brace {
+  font-size: 1.2em;
+}
+
+h3 {
+  color: white;
+  text-shadow: 2px 2px 10px rgba(0,0,0,.3);
+}
+
+h3.url {
+  background: white;
+  color: #333;
+  padding: 3px;
+  width: 80%;
+  margin: 5px auto;
+  border: 3px solid #333;
+}
+
+#sub_title {
+  text-align: center;;
+}
+
+.t_red {
+  padding: 3px 1px;
+  background-image: linear-gradient(rgba(0,0,0,0),rgba(255,0,0,.3), rgba(0,0,0,0));
+}
+
+.t_blue {
+  padding: 3px 1px;
+  background-image: linear-gradient(rgba(0,0,0,0),rgba(50, 50, 255, 0.5), rgba(0,0,0,0));
+}
+
+.t_black {
+  padding: 2px 0;
+  background-image: linear-gradient(rgba(0,0,0,0),rgba(156, 36, 126, 0.575), rgba(0,0,0,0));
+}
+
+
+#team{
+  position: absolute;
+}
+
+.button_top_layer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 5;
+  height: 100%;
+  position: relative;
+  bottom: 68px;
+  padding: 0 20px;
+}
+
+.button_top_layer i {
+  color: rgba(255,255,255,.8);
+  font-size: 2em;
+  padding: 10px;
+}
+
+.button_top_layer i:hover {
+  color: white;
+}
+
+.button_top_layer button{
+  height: 2.5em;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.instruction_container {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+#end_turn {
+  border: 3px solid rgba(255,255,255,.8);
+  color: rgba(255,255,255,.8);
+  font-family: 'Lalezar', cursive;
+  background: rgba(0,0,0,.1);
+  font-size: 2vw;
+  letter-spacing: 3px;
+  margin-left: 20px;
+  padding: 2px 12px 0 12px;
+}
+
+#end_turn:hover {
+  color: white;
+  cursor: pointer;
+  border: 3px solid white;
+}
+
+/*************************/
+
+
+.board_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 700px;
+  max-height: 70vh;
+}
+
+.scene {
+  perspective: 400px;
+}
+
+.card {
+  position: relative;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transform-origin: center right;
+  transition: transform 2s;
+  background-color: rgba(0,0,0)
+}
+
+.card.is-flipped {
+  transform: translateX(-100%) rotateY(-180deg);
+}
+
+.card_container {
+  margin: 10px;
+  width: 22%;
+  height: 25%;
+  border-radius: 3px;
+}
+
+.card_front {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3.8vw;
+  height: 140px !important;
+  background-color: rgb(245, 241, 235);
+  border: 4px solid black;
+  border-radius: 5px;
+}
+
+.card_back img {
+  min-height: 140px;
+  height: 100%;
+  width: 100%;
+}
+
+.card_face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+
+#spy .card_face, #spy .card_front, #spy {
+  color: white;
+  border: none;
+  backface-visibility: visible;
+  background-color: rgba(0,0,0,0);
+}
+
+#spy span {
+  text-shadow: 3px 3px 8px rgb(58, 58, 58);
+  background-image: radial-gradient(rgba(0,0,0,.7),rgba(0,0,0,0), rgba(0,0,0,0));
+}
+
+.card_back {
+  transform: rotateY(180deg);
+}
+
+
+/* WIN SCREEN STLYES */
+
+.red_bg {
+  background:
+  repeating-radial-gradient(circle, 
+  rgba(207, 171, 198, 0.03) 10px, 
+  rgba(207, 171, 198, 0.03) 45px,
+  rgba(218, 187, 187, 0.15) 60px, 
+  rgba(218, 187, 187, 0.15) 70px, 
+   rgba(207, 171, 198, 0.03) 85px),
+   repeating-radial-gradient(circle, 
+   rgb(255, 51, 0),
+   rgb(59, 0, 0)
+   );
+}
+
+.blue_bg {
+  background:
+  repeating-radial-gradient(circle, 
+  rgba(207, 171, 198, 0.03) 10px, 
+  rgba(207, 171, 198, 0.03) 45px,
+  rgba(218, 187, 187, 0.15) 60px, 
+  rgba(218, 187, 187, 0.15) 70px, 
+   rgba(207, 171, 198, 0.03) 85px),
+   repeating-radial-gradient(circle, 
+   rgb(11, 11, 255),
+   rgb(7, 1, 87)
+   );
+}
+
+.bg_layer1{
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+
+.bg_layer1 h1{
+  padding-top: 20vh;
+  letter-spacing: 1vw;
+  color: white;
+  text-shadow: 2px 2px 35px rgba(0,0,0,.7);
+  font-size: 8.5vw;
+  font-family: 'Lalezar', cursive;
+}
+
+.bg_layer1 button:first-of-type{
+  margin-right: 3vw;
+}
+
+.bg_layer1 button, .bg_layer1 a{
+  letter-spacing: 0.2vw; 
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  width: 18vw;
+  font-weight: bold;
+  font-size: 3.5vw;
+}
+
+/* SPY GAME KEY PAGE */
+
+.contain_keyform {
+  text-align: center;
+}
+
+.contain_keyform h1 {
+  font-size: 2vw;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 900px) {
+  #setup_title{
+    font-size: 12vw;
+  }
+  #spymaster_header {
+    font-size: 8vw;
+  }
+  #setup_subtitle {
+    font-size: 1.4em;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .board_container {
+    max-height: 80vh;
+  }
+  #index_title {
+    font-size: 5em;
+  }
+  
+  h2 {
+    margin-top: 10px;
+    font-size: 2em;
+  }
+
+  .card_container {
+    margin: 2px;
+    width: 23%;
+    height: 16%;
+  }
+  
+  .card_back img {
+    min-height: 100px !important;
+  }
+
+  .card_front {
+    height: 100px !important;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #counter {
+    font-size: 4em;
+    margin-top: -5px;
+  }
+
+  .button_top_layer,
+  #end_turn {
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  #end_turn {
+    position: relative;
+    top: 12px;
+    right: 10px;
+  }
+
+  .right_button_group {
+    position: relative;
+    top: 16px;
+  }
+  .right_button_group i {
+    padding: 0 20px;
+    font-size: 5vw;
+  }
+
+  #index_title {
+    font-size: 4em;
+  }
+
+  /* .instruction_container h2{
+    font-size: 7vw;
+  } */
+
+  .instruction_container h3{
+    font-size: 3.7vw;
+  }
+
+  #sub_title{
+    font-size: 7vw;
+  }
+  #i_title{
+    font-size: 12vw;
+  }
+}
+
+@media only screen and (max-width: 430px){
+  #counter {
+    font-size: 12.5vw;
+  }
+  #index_title {
+    font-size: 12.5vw;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+
+  .instruction_container h2{
+    font-size: 5.5vw;
+  }
+
+  .instruction_container h3{
+    font-size: 4vw;
+  }
+
+  #sub_title{
+    font-size: 7vw;
+  }
+  #setup_title{
+    font-size: 12vw;
+  }
+
+  .setup_container{
+    width: 95%;
+  }
+}

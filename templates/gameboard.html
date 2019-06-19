@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %} Codenames {% endblock %}
+{% block head%}
+{{ super() }}
+{% endblock %}
+
+{% block body %}
+<head>
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="{{url_for('static', filename='js/script.js')}}" defer></script>
+</head>
+<div class="board_container">
+  {% if color_id == 0 %}
+  <input type="hidden" id="color_start" class="red_starts">
+  {% else %}
+  <input type="hidden" id="color_start" class="blue_starts">
+  {% endif %}
+
+
+  {% for word in bank: %}
+  <div class="card_container scene scene--card">
+    <div class="card card_to_flip">
+      <div class="card_face card_front"><span>{{word.word}}</span></div>
+      <div class="card_face card_back" class_hidden="{{word.color}}">
+        <img src="../static/img/{{word.color}}.jpg">
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+
+{% endblock %}
